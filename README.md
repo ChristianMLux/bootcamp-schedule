@@ -10,6 +10,8 @@ this respository is to keep track of my journey in the bootcamp
   input interface 
 #### -> how to set variables in windows and use them in cmd
   (enter "environment variables" in windows search > "new" > Name the variable > enter the varable value > safe > to use them in cmd %VARIABLENAME%
+#### -> how to create new files and folders via cmd
+  "%code% filename.txt filename.txt dir\filename.txt" will create 2 files in the current folder and also creates a new folder with an filename.txt in it.
 #### -> getting more in touch with github
   learned how to work with Issues 
   how to add/edit Readme Files
