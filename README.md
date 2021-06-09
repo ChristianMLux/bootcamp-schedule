@@ -20,9 +20,11 @@ this respository is to keep track of my journey in the bootcamp
   Markdown’s syntax is intended for one purpose: to be used as a format for writing for the web.
 
 
+
 ## 09062021
 ### -> HTML
-brief overview about HTML, tags , format , text , structure (html, head, body, main, footer etc) 
+brief overview about HTML, tags , format , text , structure (html, head, body, main, footer etc)
+heading=use headings for accessibility. don't skip headings
 ### -> Git Bash
 How to use it, for what is it good for. cmd replacement
 ### -> visual studio code 
