@@ -33,4 +33,5 @@ emmet shortcut,
 ## 10062021
 ### -> shortcuts/lifehack
 alt + arrows = moving lines in code
-div*5>{items*$} (creates 5 divs with item
+
+divx5>{itemsx$} (creates 5 divs with item
