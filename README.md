@@ -29,3 +29,8 @@ heading=use headings for accessibility. don't skip headings
 How to use it, for what is it good for. cmd replacement
 ### -> visual studio code 
 emmet shortcut, 
+
+## 10062021
+### -> shortcuts/lifehack
+alt + arrows = moving lines in code
+div*5>{items*$} (creates 5 divs with item
