@@ -35,3 +35,11 @@ emmet shortcut,
 alt + arrows = moving lines in code
 
 divx5>{itemsx$} (creates 5 divs with item
+
+## 11062021
+### -> CSS 
+selector {property: value;}
+
+(Margin(Border(Padding(Content)Padding)Border)Margin)
+
+
