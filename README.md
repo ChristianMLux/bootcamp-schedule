@@ -42,4 +42,14 @@ selector {property: value;}
 
 (Margin(Border(Padding(Content)Padding)Border)Margin)
 
+## 14062021
+### WeeklyRecap
+#### ->CSS
+Ruleset selector{style declaration:value}
+tag selector -> name
+class selector -> .name
+universal selector -> *
+id selector -> #name
+attribute selector -> [name]
+
 
