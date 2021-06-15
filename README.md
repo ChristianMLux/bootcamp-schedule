@@ -73,6 +73,8 @@ border
 
 = border : 5px solid red
 
+pseudo classes / selectoren 
+
 
 (git pull/push workthrough)
 1. git repository erstellen 
