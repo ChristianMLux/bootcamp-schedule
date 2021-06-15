@@ -55,3 +55,37 @@ attribute selector -> [name]
 #### -> BoxModel
 (Margin (Border (Padding (Content) Padding) Border) Margin)
 
+## 15062021
+### -> CSS
+Ruleset selector{style declaration:value}
+tag selector -> name
+class selector -> .name
+universal selector -> *
+id selector -> #name
+attribute selector -> [name]
+
+(Margin(Border(Padding(Content)Padding)Border)Margin)
+
+shorthands 
+border.. 
+border .. 
+border 
+
+= border : 5px solid red
+
+
+(git pull/push workthrough)
+1. git repository erstellen 
+(sowohl in git als auch auf dem desktop) 
+2. touch files in desktop folder
+3. git init the dekstop repo 
+4. (if needed) git branch -m master main (change branche from master to main) 
+5. git add . = make the files ready for commit
+6. git remote add origin "origin URL"  = connect desk and hub
+7. commit changes
+8 git push -u origin main 
+
+(if this leads to an error and youre sure you're uploading the 
+right thing just git push --force origin main
+
+
