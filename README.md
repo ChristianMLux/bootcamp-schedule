@@ -146,6 +146,54 @@ sticky | Yes | Scrolling ancestor + offsets
 > **!! Absolute units can cause accessibility issues because they don’t scale when the user agent’s font-size changes!! **
 
 
+## 17062021
+
+### Media Queries 
+
+> What is a Media Query?
+> Media query is a CSS technique introduced in CSS3.
+
+__It uses the @media rule to include a block of CSS properties only if a certain condition is true.__
+
+```
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+```
+* @media → queries for a specific device criteria
+* @supports → queries for specific CSS feature
+* @keyframes → defines a keyframe animation
+* @font-face → defines an external font (to be downloaded)
+
+Examples for specific features are:
+1. Width and height of the viewport
+2. Media type
+3. Resolution
+4. Display mode
+5. Orientation
+6. Light level
+
+
+> MEDIATYPES: all, screen, printer, speech .. etc. 
+
+__Printing dark themed websites only makes printer companies happy__
+```
+.theme {
+  background-color: black;
+  color: white;
+}
+
+@media print {
+  .theme {
+    background-color: white;
+    color: black;
+  }
+}
+
+```
+
 
 
 
