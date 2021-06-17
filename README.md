@@ -90,4 +90,63 @@ pseudo classes / selectoren
 (if this leads to an error and youre sure you're uploading the 
 right thing just git push --force origin main
 
+## 16062021
+
+### Cascade 
+> on a simplyfied level the cascade defines which styles should be applied to an element in the following order 
+
+1. Importance 
+2. Specificity
+3. Source ordner
+
+* Universal selector → *.
+* Tag selector → p or div
+* Class selector → .nav or .main-content
+* Attribute selector → [title] or [href]
+* Pseudo-classes → :hover or :focus 
+* ID selector → #contact or #skills
+* Inline styles → <main style=”color: red”>...</main>
+
+Each selector has a specificity score
+* Tag → 1
+* Class, pseudo-class and -element, attribute → 10
+* ID → 100
+)
+
+### Flow Layout / Document FLow / Display types 
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/display
+[MDN DOCS](https://developer.mozilla.org/en-US/docs/Web/CSS/display "display property")
+
+#### Position 
+>The position property allows taking elements out of the normal document flow to create complex components and layouts.
+
+>!!**position: absolute can be slightly tricky because it depends on the containing block 
+and if offset properties are set.**!!
+
+
+Position | Positioned | Positioned to?
+--- | --- | ---
+static | No | - 
+relative | Yes | Normal flow + offsets
+absolute | Yes | Containing block + offsets
+fixed | Yes | Viewport + offsets
+sticky | Yes | Scrolling ancestor + offsets
+
+### Length Units
+
+* em stands for equalm m
+* rem stands for root euqlm m
+
+> Root: 16px -> 1 rem = 16px
+
+*ch = represents the width of the glyph “0” of the current element
+*ex = represents the height of the letter “x” of the current element
+
+> **!! Absolute units can cause accessibility issues because they don’t scale when the user agent’s font-size changes!! **
+
+
+
+
+
 
