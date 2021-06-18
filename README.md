@@ -194,6 +194,11 @@ __Printing dark themed websites only makes printer companies happy__
 
 ```
 
+## 18062021
+
+### Weekly Recap 
+### Lightning talk with atef 
+
 
 
 
