@@ -3,6 +3,19 @@ this respository is to keep track of my journey in the bootcamp
 
 
 ## Today I've learned: 
+
+* [08.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#08062021 "08.06.2021")
+* [09.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#09062021 "09.06.2021")
+* [10.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#10062021 "10.06.2021")
+* [11.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#11062021 "11.06.2021")
+* [14.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#14062021 "14.06.2021")
+* [15.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#15062021 "15.06.2021")
+* [16.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#16062021 "16.06.2021")
+* [17.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#17062021 "17.06.2021")
+* [18.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#18062021 "18.06.2021")
+
+
+
 ## 08062021
 ### -> what visual studio code is
   visual studio is an IDE (integrated development environment)
