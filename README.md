@@ -15,7 +15,7 @@ this respository is to keep track of my journey in the bootcamp
 * [18.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#18062021 "18.06.2021")
 * [21.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#21062021 "21.06.2021")
 
-
+___
 
 ## 08062021
 ### -> what visual studio code is
@@ -33,7 +33,7 @@ this respository is to keep track of my journey in the bootcamp
 ### -> what markdown is
   Markdown’s syntax is intended for one purpose: to be used as a format for writing for the web.
 
-
+___
 
 ## 09062021
 ### -> HTML
@@ -44,17 +44,23 @@ How to use it, for what is it good for. cmd replacement
 ### -> visual studio code 
 emmet shortcut, 
 
+___
+
 ## 10062021
 ### -> shortcuts/lifehack
 alt + arrows = moving lines in code
 
 divx5>{itemsx$} (creates 5 divs with item
 
+___
+
 ## 11062021
 ### -> CSS 
 selector {property: value;}
 
 (Margin(Border(Padding(Content)Padding)Border)Margin)
+
+___
 
 ## 14062021
 ### WeeklyRecap
@@ -68,6 +74,8 @@ attribute selector -> [name]
 
 #### -> BoxModel
 (Margin (Border (Padding (Content) Padding) Border) Margin)
+
+___
 
 ## 15062021
 ### -> CSS
@@ -103,6 +111,8 @@ pseudo classes / selectoren
 
 (if this leads to an error and youre sure you're uploading the 
 right thing just git push --force origin main
+
+___
 
 ## 16062021
 
@@ -159,6 +169,7 @@ sticky | Yes | Scrolling ancestor + offsets
 
 > **!! Absolute units can cause accessibility issues because they don’t scale when the user agent’s font-size changes!! **
 
+___
 
 ## 17062021
 
@@ -207,13 +218,70 @@ __Printing dark themed websites only makes printer companies happy__
 }
 
 ```
+___
 
 ## 18062021
 
 ### Weekly Recap 
 ### Lightning talk with atef 
 
+___
+
 ## 21062021
+
+### GitHub 
+
+> **Git** is the de facto industry standard when it comes to version control and web development
+> Git helps developers to track changes and to collaborate changes to software
+
+* Highlevel overview of Git workflow
+* How to init a repository
+* How to add and commit changes
+* How to view the history of a repository 
+* How to connect remote repositories 
+* How to use VSCode with Git
+
+> git is a timemashine for file changes.
+
+Git is a tool that tracks file changes in a directory. 
++ when was the files changed
++ what was changed
++ was the file deleted
+
+Git trakcs everything that can happen to a files or directory
+
+**Repository**: A repository is a folder on your computer that is managed by Git
+* the folder can hold files and subfolders
+* often called "Repo"
+
+**Stage/Index**: File changes in a repository are not automatically saved by Git. File changes need to be proposed as permanent changes.
+
+> this is done by adding changes to the stage or index (add .)
+
+**Commit**: A commit is a change to file(s) in a repo. A commit holds information like (When, Who, Why, What)
+
+**HEAD**: is the latest version of a repo. the head is the sum of all commits in a repo. 
+
+**Branch**: Branches are used to develop features or to isolate work. A Repo usually has a default or main branch where other branches are merge once they are ready. 
+
+__Workflow__: 
+1. File(s) in a repository change
+2. The changes are added to the index / stage
+3. The staged changes are committed to the repository
+4. The history and HEAD of the repository changes
+
+**git config**
+```
+git config --help
+rm -rf .git (delete initialized git repo) 
+```
+
+**Commit Hash** 
+> The commit hash is unique historical identifier of the repository 
+
+* reset the current 
+
+
 
 
 
