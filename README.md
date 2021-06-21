@@ -13,6 +13,7 @@ this respository is to keep track of my journey in the bootcamp
 * [16.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#16062021 "16.06.2021")
 * [17.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#17062021 "17.06.2021")
 * [18.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#18062021 "18.06.2021")
+* [21.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#21062021 "21.06.2021")
 
 
 
@@ -211,6 +212,10 @@ __Printing dark themed websites only makes printer companies happy__
 
 ### Weekly Recap 
 ### Lightning talk with atef 
+
+## 21062021
+
+
 
 
 
