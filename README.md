@@ -351,10 +351,14 @@ p {
 
 __Fallback Value__
 > What happens if a custom property is undefined?
+```
 The var() function takes a second argument which represents a fallback value
-var(--custom-property, <fallback-value>)
 
-__Dark&Light Theme__
+var(--custom-property, <fallback-value>
+```
+
+__Dark&LightTheme__
+  
 ```
 @media (prefers-color-scheme: dark) {
   html {
@@ -363,9 +367,31 @@ __Dark&Light Theme__
   }
 }
 ```
+  
 > If a none defined custom property is used (without a fallback value) the property is set to initial or inherit
 * The property will use initial if the property is not inherited
 * The property will use the inherited value if the property is inherited
+
+### Transitions
+
+> Websites with the right amount of animations and transitions are a joy to use.
+
+A transition defines an _animated_ change from one state to another state
+  
+__Shorthand__ 
+```
+transition-property 
+transition-duration
+transition-timing-function
+transition-delay
+```
+
+> Nearly all properties are animatable but __only a few should be animated__.
+ 
+__Performance__ 
+* Properties that change the __layout__ (width, height, padding, etc.) __should not be animated__ → bad performance
+* Properties that only __change the appearance__ (color) __can be animated__ → good performance
+* __Opacity and transform__ have the __best performance__ → handled by the GPU
 
 
 
