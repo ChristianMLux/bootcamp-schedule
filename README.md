@@ -14,6 +14,7 @@ this respository is to keep track of my journey in the bootcamp
 * [17.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#17062021 "17.06.2021")
 * [18.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#18062021 "18.06.2021")
 * [21.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#21062021 "21.06.2021")
+* [22.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#22062021 "22.06.2021")
 
 ___
 
@@ -281,9 +282,90 @@ rm -rf .git (delete initialized git repo)
 
 * reset the current 
 
+___
 
+## 22062021
 
+### Flexbox
 
+> Flexbox is a efficient and modern way of layouting with a chance of overuse
+
+* Flexbox allows you to distribute items among available space
+* primarily designed for one-dimensional layouts
+* potential chance of overuse
+
+__A flexbox has a main and a cross axis__
+
+row -> 
+
+reversed row <- 
+
+Column |
+
+_the justify-content property defines the distribution of space and flex items accross the main-axis_
+
+__order__ base value= 0 (don't use it) 
+__flex-grow__ controls the distribution of remaining space.
+__flex-shrink__ The flex-shrink property defines a shrink factor for each flex item.
+__flex-basis__ The flex-basis property sets the initial main size of a flex item.
+__flex shorthand__ 
+```
+flex: 5; 
+/* flex-grow: 5; flex-shrink: 1; flex-basis: auto; */
+
+flex: 100px; 
+/* flex-grow: 0; flex-shrink: 1; flex-basis: 100px; */
+
+flex: 2 0; 
+/* flex-grow: 2; flex-shrink: 0; flex-basis: auto; */
+
+flex: 5 100px; 
+/* flex-grow: 5; flex-shrink: 1; flex-basis: 100px; */
+
+```
+
+__align-self__ The align-self property allows flex items to be positioned individually on the cross-axis
+```
+.flexbox {
+  display: flex;
+  align-items: flex-end;
+}
+
+.flex-child {
+  align-self: flex-start;
+}
+```
+### CSS Custom Properties
+
+> Custom properties can be changed during runtime / They can be used to create customizable web components
+
+```
+html {
+  --primary-color: black;
+}
+
+p { 
+  color: var(--primary-color);
+}
+```
+
+__Fallback Value__
+> What happens if a custom property is undefined?
+The var() function takes a second argument which represents a fallback value
+var(--custom-property, <fallback-value>)
+
+__Dark&Light Theme__
+```
+@media (prefers-color-scheme: dark) {
+  html {
+    --font-color: white;
+    --background-color: black;
+  }
+}
+```
+> If a none defined custom property is used (without a fallback value) the property is set to initial or inherit
+* The property will use initial if the property is not inherited
+* The property will use the inherited value if the property is inherited
 
 
 
