@@ -285,6 +285,9 @@ rm -rf .git (delete initialized git repo)
 ___
 
 ## 22062021
+* [Flexbox](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#flexbox "Flexbox")
+* [CSS Custom Properties](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#css-custom-properties "CSS Custom Properties")
+* [Transitions](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#transitions "Transitions")
 
 ### Flexbox
 
