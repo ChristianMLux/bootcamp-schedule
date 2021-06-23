@@ -15,6 +15,7 @@ this respository is to keep track of my journey in the bootcamp
 * [18.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#18062021 "18.06.2021")
 * [21.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#21062021 "21.06.2021")
 * [22.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#22062021 "22.06.2021")
+* [23.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#23062021 "23.06.2021")
 
 ___
 
@@ -395,6 +396,29 @@ __Performance__
 * Properties that change the __layout__ (width, height, padding, etc.) __should not be animated__ → bad performance
 * Properties that only __change the appearance__ (color) __can be animated__ → good performance
 * __Opacity and transform__ have the __best performance__ → handled by the GPU
+
+___
+
+## 23062021
+* [Transform](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#Transform "Transform")
+* [Grid](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#Grid "Grid")
+
+### Transform 
+
+> Modern UX uses animations to guide users
+> Performant animations can’t be done without the transform property
+
+The transform property modifies the coordinate space of elements
+Elements can be moved around, rotated or scaled
+transform provides several transform functions
+i.e. translate, scale, rotate, skew
+
+
+### Grid
+
+> CSS Grid is the efficient and modern way of building complex layouts.
+
+
 
 
 
