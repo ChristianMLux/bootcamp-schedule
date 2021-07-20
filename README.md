@@ -475,7 +475,7 @@ req.addEventListener("load", function() {
  * it's relatively new but well supported
  * Polyfill is available
 
-> more modern API 
+> more modern API and nicos fav
 
 Using ``Fetch`` to get data from backend.
 
@@ -484,6 +484,42 @@ fetch('https://krautpisum.com/api/sentence')
 .then(response => response.json())
 .then(data => console.log(data));
 ```
+
+#### WebSocket API
+
+* WebSocket API enables async communication from client to server
+* based on TCP using the ws or wss protocols
+* Server and Client can constantly send messages to each other
+
+#### REST
+
+> **Re**presentation **S**tate **T**ransfer
+
+* REST is a design pattern for APIs
+* The term REST was defined by Roy Fielding in 2000
+* Most common type of API
+
+> REST is based on the concept of clients and resources
+> A client is someone who uses the API
+> A Resource can be any piece of information provided by the API
+
+When a RESTfuk API is called the server will tranfer a representation of the state to the client.
+
+##### Resources and Endpoints
+
+* Resources are available as endpoints
+* Endpoiints are represented as URLs (uniform resource locator)
+* Different operations can be perfomed on resource
+  * view, add, edit or delete data
+
+> Operations on resources are done via HTTP and its methods **C-R-U-D**
+
+* GET -> Retrieve data
+* POST -> Create data
+* PUT -> Update data
+* DELTE -> Delete data
+
+
 
 #### daily notes
 
