@@ -16,6 +16,7 @@ this respository is to keep track of my journey in the bootcamp
 * [21.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#21062021 "21.06.2021")
 * [22.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#22062021 "22.06.2021")
 * [23.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#23062021 "23.06.2021")
+* [20.07.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#20072021 "20.07.2021")
 
 ___
 
@@ -417,6 +418,58 @@ i.e. translate, scale, rotate, skew
 ### Grid
 
 > CSS Grid is the efficient and modern way of building complex layouts.
+
+## 20072021
+
+> no matter if SPA* or JAMStack* - modern websites require async communication.
+
+* JSON = JavaScript Object Notation 
+* Most used format for data retrieved through data APIs
+
+```JavaScipt
+Javascript Object -> JSON.stringify() -> JSON
+JSON -> JSON.parse() -> JavaScript Object
+```
+> JSON ist the textual representation of JavaScript objects.
+
+### Data APIs
+
+* most websites or web apps require communication to send or load data from another server or client
+* the Browser provides different approaches
+- AJAX
+- Websockets
+- Fetch
+
+#### AJAX 
+
+* AJAX = Asynchronous JavaScript and XML
+* AJAX is based on XMLHttpRequest
+* With AJAX a website can request or send data after the site has been loaded
+
+> first implemented system
+
+##### XMLHttpRequest API
+
+* most common and best supported API for loiading data
+* XMLHttpRequest is event based
+* XMLHttpRequest was key to modern and dynamic website and apps
+
+> simple approach of dynamically loading content with XMLHttpRequest.
+
+```JavaScript
+var req = new XMLHttpRequest();
+
+req.addEventListener("load", function() {
+  const data = JSON.parse(this.responseText)
+  document.body.append(document.createTExtNode(data.kraut))
+ });
+ 
+ req.open("GET", "https://krautipsum.com/api/kraut");
+ 
+ req.send();
+ ```
+  
+
 
 
 
