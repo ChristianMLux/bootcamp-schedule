@@ -468,6 +468,112 @@ req.addEventListener("load", function() {
  
  req.send();
  ```
+ 
+ #### Fetch API
+ 
+ * The fetch is a promise based API to interact with servers
+ * it's relatively new but well supported
+ * Polyfill is available
+
+> more modern API 
+
+Using ``Fetch`` to get data from backend.
+
+```JavaScript
+fetch('https://krautpisum.com/api/sentence')
+.then(response => response.json())
+.then(data => console.log(data));
+```
+
+#### daily notes
+
+``JS`` 
+```JavaScript
+// Bisherige Schreibweise mit function keyword
+function add(a, b) {
+  return a + b;
+}
+
+// Arrow function mit function body
+const addFn = (a, b) => {
+  return a + b;
+};
+
+// wenn geschweifte klammern des function body
+// weggelassen werden, erfolgt ein implizites return
+const addFn2 = (a, b) => a + b;
+
+// Beispiel mit Arrays
+const arr = [1, 2, 3];
+
+arr.forEach(function (item) {
+  console.log(item);
+});
+
+arr.forEach((item) => console.log(item));
+
+// Verwendung Fetch API mit arrow functions
+fetch("https://krautipsum.com/api/sentence")
+  .then((response) => response.json())
+  .then((data) => console.log(data));
+
+// Verwendung Fetch API mit normalen Funktionen
+fetch("https://krautipsum.com/api/sentence")
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (data) {
+    console.log(data);
+  });
+
+// Beispiel Zugriff auf lokale TODO API
+fetch("http://localhost:4730/todos")
+  .then((response) => response.json())
+  .then((data) => console.log(data));
+
+
+// JSON Format für neues Todo
+const newTodo =  {   
+    "description": "Learn REST",
+    "done": true
+  }
+```
+
+``HTML`` 
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      console.log("hallo vor fetch");
+      fetch("http://localhost:4730/todos")
+        .then((response) => {
+          console.log("erstes then");
+          return response.json();
+        })
+        .then((data) => {
+          console.log("zweites then");
+          console.log(data);
+        });
+      console.log("hallo nach fetch");
+    </script>
+  </body>
+</html>
+```
+
+
+
+
+
+
+
+ 
   
 
 
