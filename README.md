@@ -17,6 +17,7 @@ this respository is to keep track of my journey in the bootcamp
 * [22.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#22062021 "22.06.2021")
 * [23.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#23062021 "23.06.2021")
 * [20.07.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#20072021 "20.07.2021")
+* [26.07.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#26072021 "26.07.2021")
 
 ___
 
@@ -602,6 +603,50 @@ const newTodo =  {
   </body>
 </html>
 ```
+
+## 26072021
+
+### Developer Tooling
+
+the rise of Node.js and NPM enabled massive developer tooling
+* fix compatibility issues
+* pre-processors/ renspilers
+* linting and formatting
+* image optimization
+* testing
+* minifying and concatenating code 
+
+Autoprefixer 
+* autoprefixer is used to solve dompativility issues with CSS (autoprefixer.github.io)
+
+Browserslist
+* defines browser used for a project
+* is stored as seperate file
+
+> **Coding guidelines should be 100% enforceable by tooling.**
+
+Linting
+* linters are used to enforce coding guidlines and to avoiud common mistakes
+* linters can be used to fix issues automatically 
+* linters are used pre-commit or with CI
+* Popular linters are: ESLint, TSLint, StyleLint, HTMLLint
+
+
+> Every developer spendsa at least one week of its life discussing formatting ruls.
+
+
+### Testing
+
+> all testing should be automated
+without testing:
+* When can you really ship your software
+* how do you even dare to delete one line of code? 
+* no trust.
+
+
+
+
+
 
 
 
