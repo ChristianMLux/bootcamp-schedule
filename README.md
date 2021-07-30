@@ -1,6 +1,8 @@
 # bootcamp-schedule
 this respository is to keep track of my journey in the bootcamp 
 
+* [FLOWS](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/FLOWS.md)
+
 
 ## Today I've learned: 
 
@@ -18,6 +20,7 @@ this respository is to keep track of my journey in the bootcamp
 * [23.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#23062021 "23.06.2021")
 * [20.07.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#20072021 "20.07.2021")
 * [26.07.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#26072021 "26.07.2021")
+
 
 ___
 
