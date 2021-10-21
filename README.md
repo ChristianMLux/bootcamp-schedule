@@ -20,6 +20,8 @@ this respository is to keep track of my journey in the bootcamp
 * [23.06.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#23062021 "23.06.2021")
 * [20.07.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#20072021 "20.07.2021")
 * [26.07.2021](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#26072021 "26.07.2021")
+* [21.10.2021 - GIT](https://github.com/ChristianMLux/bootcamp-schedule/blob/main/README.md#21102021 "21.10.2021")
+
 
 
 ___
@@ -647,11 +649,23 @@ without testing:
 * no trust.
 
 
+## 21102021
 
+Git Commit + Message in one command 
+```git 
+git commit -a -m "Message..."
+```
+(doesn't add new files) 
 
+```git
+git add -A //adds everything, not only files in current folder
+```
 
-
-
+Git Alias: 
+```git 
+git config --global alias."AliasName" '!git add -A && git commit -m'
+```
+run with `git "AliasName""message"`
 
 
 
